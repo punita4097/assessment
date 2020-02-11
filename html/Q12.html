@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        
+
+        
+        
+        <div class="header">
+            
+           <div class="topnav">
+            <span id="left"> To The New</span>
+
+               <ul>
+                   <li><a href="home">home</a></li>
+                   &nbsp;
+                   <li><a href="Quick help">Quick Help</a></li>
+               </ul>
+           </div>
+            
+          </div>
+
+          <hr>
+        
+
+       
+
+                    <div class="main">
+            <div class="id1">
+                <h1>Bug report</h1>
+            </div>
+           
+            <div class="id2">
+                <form>
+                Title*<br>
+                <input type="text" name="title" class="mandatory1"required><br>
+                Description*<br>
+                
+               <textarea name="description"  id="text"required></textarea>
+            
+               <p> Operating System<br>
+                <select class="mandatory">
+                    <option value = "1">window</option>
+                    <option value = "2">linux</option>
+                    <option value = "3">Mac</option>
+                    </select>
+                </p>
+                <p>
+                    Product*<br>
+                    <select class="mandatory">
+                        <option value = "1">window</option>
+                        <option value = "2">linux</option>
+                        <option value = "3">Mac</option>
+                        </select>
+                    
+                </p>
+                Version*<br>
+                <input type="text" name="version" id="version"required>
+
+                <p>
+                    License:<br>
+                    <input type="radio"name="free" >free
+                    <input type="radio"name="Business">Business
+
+
+                </p>
+                <p >
+                    Severity:<br>
+                    <select class="mandatory">
+                        <option value = "1">1</option>
+                        <option value = "2">2</option>
+                        <option value = "3">3</option>
+                        
+                    </select>
+
+                </p>
+                <p>
+                Attachments:
+                <br>
+                <input type="file" id="myfile">
+                </p>
+            <script>
+                var x = document.getElementById("myFile");
+            </script>
+
+                        
+            </div>
+
+            <div class="id3">
+                <input type="submit"  id="s"name="send" value="send">
+            </div>
+
+        </div>
+        </form>
+       </body>
+
+</html>
