@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>Palindrome</title>
+    </head>
+    <script type="text/javascript">
+
+
+
+    function palindrome() {
+        str=parseFloat(prompt("Enter a string"));
+
+var len = str.length;
+var mid = Math.floor(len/2);
+
+for ( var i = 0; i < mid; i++ ) {
+    if (str[i] !== str[len - 1 - i]) {
+        document.write("given string is not palindrome");
+    }
+}
+
+document.write("given string is palindrome");
+}
+
+    </script>
+<body> 
+    
+    <input type="button" value="check  string is plaindrome or not" onclick="palindrome()" />
+</body>
+</html>
