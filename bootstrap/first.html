@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bug report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+  <style>
+  .main{
+  width: 400px;
+  margin:0 auto;
+  border:2px solid black;
+  border-radius:10px;
+ 
+  }
+
+  .section{
+	  padding-top: 30px;
+	  padding-bottom: 20px;
+  }
+  .option-field {
+	  background-color: cyan;
+  }
+  
+
+  .right-align {
+	  text-align: right;
+	  
+
+  }
+  .left-align {
+	  text-align: left;
+  }
+  .alignleft{
+        float:left ;
+        font-size: large;
+        font-weight:bold ;
+        color: #10D5D2;
+      }
+   .alignright{
+		 float:right;
+		 font-size: large;
+		 color: #10D5D2;
+      
+      }
+
+  </style>
+  
+</head>
+<body>
+
+<div class="container">
+	<div class="header section">
+        <span class="alignleft">TO THE NEW</span>
+        <span class="alignright"><a href="#">Home</a> &nbsp;
+            <a href="#">Quick Help</a></span>
+	</div>
+	
+	<br />
+	<hr />
+	
+    <div class="panel panel-primary main">
+      <div class="panel-heading bg-primary">Bug report</div>
+      <div class="panel-body">
+			<form action="#" method="post">
+				Title:*<br />
+				<input type="text" name="title" class="form-control" required>
+				Description:*<br />
+				<textarea name="desc" class="form-control " required></textarea>
+				Operating system:<br />
+				<select name="os" class="form-control option-field">
+				<option value="Android">Android</option>
+				<option value="Linux">Linux</option>
+				<option value="windows 10">Windows 10</option>
+				</select>
+
+				
+				Product:*<br />
+				<select name="product" class="form-control option-field">
+				<option value="pid">Product1</option>
+				<option value="serialNo">Product2</option>
+				<option value="pid">Product3</option>
+				<option value="pid">Product4</option>
+				
+
+				</select>
+				Version:*<br />
+				<input type="text" name="version"><br />
+				License:*<br />
+				 <label class="radio-inline">
+					  <input type="radio" name="Free">Free
+				</label>
+				 <label class="radio-inline">
+					  <input type="radio" name="Free">Business
+				</label><br />
+				Severity:<br />
+				<select name="severity" class="form-control option-field">
+				<option value="critical">severity1</option>
+				<option value="normal">severity2</option>
+				<option value="normal">severity3</option>
+				<option value="normal">severity4</option>
+				
+				</select><br />
+				
+				
+				<div class="form-group">
+					<div class="custom-file">
+						<input type="file" class="custom-file-input" id="file">
+						<label class="custom-file-label" for="file">no file selected</label>
+					</div>
+				</div>
+				</form>
+	   
+	    </div>
+	    <div class="panel-footer right-align">
+			
+		<input type="submit" value="Send" class="btn btn-primary">
+		</div>
+		<script>
+		
+	</script>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
