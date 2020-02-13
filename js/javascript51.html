@@ -1,0 +1,70 @@
+
+
+ 
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Employee Data</title>
+	<script >
+		var Employee = [
+    						{ Name: 'Punita', age: 22, salary: 500 ,DOB:'5/04/1997'},
+   							{ Name: 'shalini', age: 18, salary: 10000 ,DOB:'02/02/1999'},
+    						{ Name: 'shweta', age: 37, salary: 5000 ,DOB:'25/07/1980'},
+    						{ Name: 'jyoti', age: 40, salary: 15000 ,DOB:'16/03/1980'},
+    						
+						];
+						document.write( "<b>Employee's Details:<br> </b>");
+						for(var i in Employee)
+						{
+							document.write("Name: "+Employee[i].Name +" Age:"+ Employee[i].age + " Salary:" + Employee[i].salary +      " DOB:" + Employee[i].DOB + "<br>");
+						}
+
+
+						
+						document.write( "<br> <b>Employees with salary greater than 5000 : </b><br>");
+						for(var i in Employee)
+						{
+							if(Employee[i].salary>=5000)
+								document.write(" "+Employee[i].Name+"<br>");
+						}
+		
+
+						
+						document.write("<br><b>Employees on the basis of their age:</b>");
+						var agelessthan20=[];
+						var age21_30=[];
+						var age30above=[];
+						for(var i in Employee){
+							if(Employee[i].age<=20)
+								 agelessthan20.push(Employee[i].Name);
+							else if(Employee[i].age<=30)
+								 age21_30.push(Employee[i].Name);
+							else
+								 age30above.push(Employee[i].Name);
+						}
+						document.write("<br>age less than 20: "+agelessthan20);
+						document.write("<br>age between 20 and 30: "+age21_30);
+						document.write("<br>age above 30: "+age30above+"<br>");
+
+						
+					
+						document.write("<br><b>employees with salary less than 1000 and age greater than 20 and then give them increment 5 times their salary.</b>");
+						var salaryhike=[];
+						for(var i in Employee){
+							if(Employee[i].salary<=1000&&Employee[i].age>20)
+							{
+								document.write("<br>");
+								var old=Employee[i].salary;
+								Employee[i].salary=Employee[i].salary*5;
+								document.write("name: "+Employee[i].Name+" old salary: "+old+" new salary: "+Employee[i].salary);
+							}
+						}
+
+
+
+
+
+	</script>
+</head>
+</html>
