@@ -1,0 +1,10 @@
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\bin\Debug\netcoreapp3.1\Q7(a) using Csharp.exe
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\bin\Debug\netcoreapp3.1\Q7(a) using Csharp.deps.json
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\bin\Debug\netcoreapp3.1\Q7(a) using Csharp.runtimeconfig.json
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\bin\Debug\netcoreapp3.1\Q7(a) using Csharp.runtimeconfig.dev.json
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\bin\Debug\netcoreapp3.1\Q7(a) using Csharp.dll
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\bin\Debug\netcoreapp3.1\Q7(a) using Csharp.pdb
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\obj\Debug\netcoreapp3.1\Q7(a) using Csharp.AssemblyInfoInputs.cache
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\obj\Debug\netcoreapp3.1\Q7(a) using Csharp.AssemblyInfo.cs
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\obj\Debug\netcoreapp3.1\Q7(a) using Csharp.dll
+D:\.net project\Q7(a) using Csharp\Q7(a) using Csharp\obj\Debug\netcoreapp3.1\Q7(a) using Csharp.pdb

@@ -1,0 +1,10 @@
+D:\.net project\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.exe
+D:\.net project\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.deps.json
+D:\.net project\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.runtimeconfig.json
+D:\.net project\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.runtimeconfig.dev.json
+D:\.net project\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.dll
+D:\.net project\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.pdb
+D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.AssemblyInfoInputs.cache
+D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.AssemblyInfo.vb
+D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.dll
+D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.pdb
