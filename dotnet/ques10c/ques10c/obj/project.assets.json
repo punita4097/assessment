@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net project\\ques10c\\ques10c\\ques10c.csproj",
+      "projectUniqueName": "C:\\Users\\Punita Yadav\\dotnet\\ques10c\\ques10c\\ques10c.csproj",
       "projectName": "ques10c",
-      "projectPath": "D:\\.net project\\ques10c\\ques10c\\ques10c.csproj",
+      "projectPath": "C:\\Users\\Punita Yadav\\dotnet\\ques10c\\ques10c\\ques10c.csproj",
       "packagesPath": "C:\\Users\\Punita Yadav\\.nuget\\packages\\",
-      "outputPath": "D:\\.net project\\ques10c\\ques10c\\obj\\",
+      "outputPath": "C:\\Users\\Punita Yadav\\dotnet\\ques10c\\ques10c\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Punita Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",
