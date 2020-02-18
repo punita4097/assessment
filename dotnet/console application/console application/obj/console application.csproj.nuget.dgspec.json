@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net project\\console application\\console application\\console application.csproj": {}
+    "C:\\Users\\Punita Yadav\\dotnet\\console application\\console application\\console application.csproj": {}
   },
   "projects": {
-    "D:\\.net project\\console application\\console application\\console application.csproj": {
+    "C:\\Users\\Punita Yadav\\dotnet\\console application\\console application\\console application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net project\\console application\\console application\\console application.csproj",
+        "projectUniqueName": "C:\\Users\\Punita Yadav\\dotnet\\console application\\console application\\console application.csproj",
         "projectName": "console application",
-        "projectPath": "D:\\.net project\\console application\\console application\\console application.csproj",
+        "projectPath": "C:\\Users\\Punita Yadav\\dotnet\\console application\\console application\\console application.csproj",
         "packagesPath": "C:\\Users\\Punita Yadav\\.nuget\\packages\\",
-        "outputPath": "D:\\.net project\\console application\\console application\\obj\\",
+        "outputPath": "C:\\Users\\Punita Yadav\\dotnet\\console application\\console application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Punita Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",

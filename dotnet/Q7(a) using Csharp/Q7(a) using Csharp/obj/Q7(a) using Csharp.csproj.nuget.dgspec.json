@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net project\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj": {}
+    "C:\\Users\\Punita Yadav\\dotnet\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj": {}
   },
   "projects": {
-    "D:\\.net project\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj": {
+    "C:\\Users\\Punita Yadav\\dotnet\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net project\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj",
+        "projectUniqueName": "C:\\Users\\Punita Yadav\\dotnet\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj",
         "projectName": "Q7(a) using Csharp",
-        "projectPath": "D:\\.net project\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj",
+        "projectPath": "C:\\Users\\Punita Yadav\\dotnet\\Q7(a) using Csharp\\Q7(a) using Csharp\\Q7(a) using Csharp.csproj",
         "packagesPath": "C:\\Users\\Punita Yadav\\.nuget\\packages\\",
-        "outputPath": "D:\\.net project\\Q7(a) using Csharp\\Q7(a) using Csharp\\obj\\",
+        "outputPath": "C:\\Users\\Punita Yadav\\dotnet\\Q7(a) using Csharp\\Q7(a) using Csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Punita Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",

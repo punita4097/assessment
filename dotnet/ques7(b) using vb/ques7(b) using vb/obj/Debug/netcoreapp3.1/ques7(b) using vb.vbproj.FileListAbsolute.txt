@@ -8,3 +8,14 @@ D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques
 D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.AssemblyInfo.vb
 D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.dll
 D:\.net project\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.pdb
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.exe
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.deps.json
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.runtimeconfig.json
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.runtimeconfig.dev.json
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.dll
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\bin\Debug\netcoreapp3.1\ques7(b) using vb.pdb
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.vbprojAssemblyReference.cache
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.AssemblyInfoInputs.cache
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.AssemblyInfo.vb
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.dll
+C:\Users\Punita Yadav\dotnet\ques7(b) using vb\ques7(b) using vb\obj\Debug\netcoreapp3.1\ques7(b) using vb.pdb

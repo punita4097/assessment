@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net project\\class library\\class library\\class library.csproj",
+      "projectUniqueName": "C:\\Users\\Punita Yadav\\dotnet\\class library\\class library\\class library.csproj",
       "projectName": "class library",
-      "projectPath": "D:\\.net project\\class library\\class library\\class library.csproj",
+      "projectPath": "C:\\Users\\Punita Yadav\\dotnet\\class library\\class library\\class library.csproj",
       "packagesPath": "C:\\Users\\Punita Yadav\\.nuget\\packages\\",
-      "outputPath": "D:\\.net project\\class library\\class library\\obj\\",
+      "outputPath": "C:\\Users\\Punita Yadav\\dotnet\\class library\\class library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Punita Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",

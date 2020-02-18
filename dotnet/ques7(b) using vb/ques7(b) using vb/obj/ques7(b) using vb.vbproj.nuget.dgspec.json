@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net project\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj": {}
+    "C:\\Users\\Punita Yadav\\dotnet\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj": {}
   },
   "projects": {
-    "D:\\.net project\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj": {
+    "C:\\Users\\Punita Yadav\\dotnet\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net project\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj",
+        "projectUniqueName": "C:\\Users\\Punita Yadav\\dotnet\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj",
         "projectName": "ques7(b) using vb",
-        "projectPath": "D:\\.net project\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj",
+        "projectPath": "C:\\Users\\Punita Yadav\\dotnet\\ques7(b) using vb\\ques7(b) using vb\\ques7(b) using vb.vbproj",
         "packagesPath": "C:\\Users\\Punita Yadav\\.nuget\\packages\\",
-        "outputPath": "D:\\.net project\\ques7(b) using vb\\ques7(b) using vb\\obj\\",
+        "outputPath": "C:\\Users\\Punita Yadav\\dotnet\\ques7(b) using vb\\ques7(b) using vb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Punita Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",
