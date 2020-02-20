@@ -1,0 +1,11 @@
+D:\oops\Assessment of oops\Assessment of oops\bin\Debug\netcoreapp3.1\Assessment of oops.exe
+D:\oops\Assessment of oops\Assessment of oops\bin\Debug\netcoreapp3.1\Assessment of oops.deps.json
+D:\oops\Assessment of oops\Assessment of oops\bin\Debug\netcoreapp3.1\Assessment of oops.runtimeconfig.json
+D:\oops\Assessment of oops\Assessment of oops\bin\Debug\netcoreapp3.1\Assessment of oops.runtimeconfig.dev.json
+D:\oops\Assessment of oops\Assessment of oops\bin\Debug\netcoreapp3.1\Assessment of oops.dll
+D:\oops\Assessment of oops\Assessment of oops\bin\Debug\netcoreapp3.1\Assessment of oops.pdb
+D:\oops\Assessment of oops\Assessment of oops\obj\Debug\netcoreapp3.1\Assessment of oops.AssemblyInfoInputs.cache
+D:\oops\Assessment of oops\Assessment of oops\obj\Debug\netcoreapp3.1\Assessment of oops.AssemblyInfo.cs
+D:\oops\Assessment of oops\Assessment of oops\obj\Debug\netcoreapp3.1\Assessment of oops.dll
+D:\oops\Assessment of oops\Assessment of oops\obj\Debug\netcoreapp3.1\Assessment of oops.pdb
+D:\oops\Assessment of oops\Assessment of oops\obj\Debug\netcoreapp3.1\Assessment of oops.csprojAssemblyReference.cache
