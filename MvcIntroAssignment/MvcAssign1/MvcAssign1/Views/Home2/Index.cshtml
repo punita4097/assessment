@@ -1,0 +1,15 @@
+﻿@model MvcAssign1.Models.Student
+@using MvcAssign1.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Passing Data From one to another controller</h3>
+
+@{
+    var data = ViewBag.Message;
+}
+<h3>Id: @data.StudentID</h3>
+<h3>Name: @data.Name</h3>
+<h3>Detail: @data.Country</h3>
