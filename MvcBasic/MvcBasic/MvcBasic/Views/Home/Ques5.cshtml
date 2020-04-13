@@ -1,0 +1,30 @@
+﻿
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ques5</title>
+</head>
+<body>
+    <div>
+        <h2>Ques 5:What is bundling and how to use bundling in view</h2>
+        <h4>
+            Bundling and minification techniques were introduced in MVC 4 to improve request load time. Bundling allows us to load the bunch of static files from the server into one http request.It makes bundle of the script and css files to reduce the loading time.
+            MVC 5 includes following bundle classes in System.web.Optimization namespace:<br />
+            ScriptBundle: ScriptBundle is responsible for JavaScript minification of single or multiple script files.<br/>
+            StyleBundle: StyleBundle is responsible for CSS minification of single or multiple style sheet files.<br />
+
+        </h4>
+        <h4>After making the bundle register that bundle in the Global.asax file.</h4>
+        <br />
+        <h4>
+            <p>Styles.Render("~/bundle/css")</p>
+            <p>Scripts.Render("~/bundle/css")</p>
+        </h4>
+    </div>
+</body>
+</html>
+

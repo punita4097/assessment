@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ques1</title>
+</head>
+<body>
+    <div>
+        <h2>
+            Explain RenderPartial, Partial and Render Action with examples
+        </h2>
+        <h4>
+            <b>Html.RenderAction: </b>
+            This is also same as Html.Action but main difference is that it renders result directly to response that’s why it
+            is more efficient if the action returns a large amount of HTML over Html.Action.
+            <br />
+
+            <b>RenderPartial And Partial:</b>
+            1. The return type of "RenderPartial" is void, where as "Partial" returns "MvcHtmlString"<br />
+
+            2. Syntax for invoking Partial() and RenderPartial() methods in Razor views<br />
+            Html.Partial("PartialViewName")<br />
+            { Html.RenderPartial("PartialViewName");  }<br />
+
+            3. Syntax for invoking Partial() and RenderPartial() methods in webform views<br />
+            <%: Html.Partial("PartialViewName") %><br />
+            <% Html.RenderPartial("PartialViewName"); %><br />
+
+        </h4>
+    </div>
+</body>
+</html>
+

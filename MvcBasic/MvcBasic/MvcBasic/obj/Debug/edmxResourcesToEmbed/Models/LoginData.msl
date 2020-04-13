@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RazorCrudDBModelStoreContainer" CdmEntityContainer="RazorCrudDBEntities">
+    <EntitySetMapping Name="C__EFMigrationsHistory">
+      <EntityTypeMapping TypeName="RazorCrudDBModel.C__EFMigrationsHistory">
+        <MappingFragment StoreEntitySet="__EFMigrationsHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="RazorCrudDBModel.Login">
+        <MappingFragment StoreEntitySet="Logins">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Isadmin" ColumnName="Isadmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="RazorCrudDBModel.Student">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
