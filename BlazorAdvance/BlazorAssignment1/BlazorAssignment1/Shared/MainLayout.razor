@@ -1,0 +1,30 @@
+﻿@inherits LayoutComponentBase
+
+@inject NavigationManager navigationManager
+
+
+<div class="sidebar">
+    <CustomNav />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+       
+
+        <input type="button" class="btn btn-primary" @onclick="@LogOut" value="Logout" />
+        <a href="https://docs.microsoft.com/en-us/aspnet/" target="_blank">About</a>
+
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+
+@code{
+    public void LogOut()
+    {
+
+        navigationManager.NavigateTo("/Login");
+    }
+}

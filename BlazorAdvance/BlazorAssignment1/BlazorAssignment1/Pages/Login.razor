@@ -1,0 +1,76 @@
+﻿@page "/"
+@page "/Login"
+
+@layout LoginLayout
+@using BlazorAssignment1.Shared
+@using BlazorAssignment1.Data.Services
+@using BlazorAssignment1.Data.Models
+@using BlazorAssignment1.Data
+@inject BlazorDbContext db;
+
+@inject NavigationManager navigationManager
+
+    <form>
+       
+        <div class="row">
+            <div class="col-md-10">
+                <div class=" form-group">
+                    <label for="Name" class="control-label">Name</label>
+                    <input form="Name" class="form-control" @bind="@objLogin.Name" />
+                </div>
+              
+
+                <div class=" form-group">
+                    <label for="Password" class="control-label">Password</label>
+                    <input form="Password" class="form-control" @bind="@objLogin.Password" />
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="button" class="btn btn-primary" @onclick="@LoginIntoDashboard" value="Login" />
+                    <input type="button" class="btn btn-primary" @onclick="@Signup" value="SignUP" />
+
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+@code {
+    LoginInfo objLogin = new LoginInfo();
+
+    
+        protected void LoginIntoDashboard()
+        {
+            var details = db.Logins.Where(x => x.Name == objLogin.Name && x.Password == objLogin.Password).FirstOrDefault();
+
+            if (details == null)
+            {
+                //objLogin.LoginErrorMessage = "Name and password do not match";
+                navigationManager.NavigateTo("/Error");
+            }
+            else
+            {
+                navigationManager.NavigateTo("/Index");
+            }
+        }
+    
+
+  
+    void Signup()
+    {
+        navigationManager.NavigateTo("Register");
+    }
+
+    public void LogOut()
+    {
+
+        navigationManager.NavigateTo("/Login");
+    }
+}
