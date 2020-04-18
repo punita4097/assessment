@@ -1,0 +1,76 @@
+﻿
+@page "/EditStudent/{CurrentID}"
+@using BlazorAssignment1.Data.Services
+@using BlazorAssignment1.Data.Models
+@inject StudentServices studentservice
+@inject NavigationManager navigationManager
+<h2>Update Student</h2>
+<hr />
+
+<form>
+    <div class="row">
+        <div class="col-md-10">
+            <div class="form-group">
+                <input form="Name" class="form-control" @bind="objStudent.StudentId" />
+
+            </div>
+            <div class=" form-group">
+                <label for="FirstName" class="control-label">First Name</label>
+                <input form="FirstName" class="form-control" @bind="@objStudent.FirstName" />
+            </div>
+
+            <div class=" form-group">
+                <label for="LastName" class="control-label">Last Name</label>
+                <input form="LastName" class="form-control" @bind="@objStudent.LastName" />
+            </div>
+            <div class=" form-group">
+                <label for="Address" class="control-label">Address</label>
+                <input form="Address" class="form-control" @bind="@objStudent.Address" />
+            </div>
+            <div class=" form-group">
+                <label for="city" class="control-label">City</label>
+                <input form="city" class="form-control" @bind="@objStudent.city" />
+            </div>
+            <div class=" form-group">
+                <label for="Age" class="control-label">Age</label>
+                <input form="Age" class="form-control" @bind="@objStudent.Age" />
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@UpdateStudentInfo" value="Update" />
+                <input type="button" class="btn btn-primary" @onclick="@Cancel" value="cancel" />
+
+            </div>
+        </div>
+    </div>
+</form>
+@code {
+    [Parameter]
+    public string CurrentID { get; set; }
+    StudentInfo objStudent = new StudentInfo();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        objStudent = await Task.Run(() => studentservice.GetStudentById(Convert.ToInt32(CurrentID)));
+    }
+
+    protected void UpdateStudentInfo()
+    {
+        studentservice.UpdateStudent(objStudent);
+        navigationManager.NavigateTo("Student");
+    }
+    void Cancel()
+    {
+        navigationManager.NavigateTo("Student");
+    }
+
+}

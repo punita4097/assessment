@@ -1,0 +1,68 @@
+﻿@page "/Question"
+<h1 class="text-danger">Question1</h1>
+<h2 class="text-danger">Difference between the Blazor client-side and server-side 
+    and also explain web assembly and Signal R connection. </h2>
+<div>
+    <div>
+        <h3 class="text-primary">Blazor Server Side:</h3>
+        <p1>
+            On the server, Blazor implements a SignalR hub communicating with the client via web sockets.<br />
+            In the server-side hosting model, Blazor is executed on the server from within an ASP.NET Core app.<br />
+            UI updates, event handling, and JavaScript calls are handled over the SignalR connection.<br />
+            The app download size is smaller and the initial app load is faster.<br />
+            It will also support existing .NET tooling like debugging the application and JIT compilation.
+
+        </p1>
+    </div>
+
+    <div>
+        <h3 class="text-primary">Blazor Client Side:</h3>
+        <p1>
+            Blazor WebAssembly will allow running a web application within the browser instead of executing
+            the logic on the server<br />
+            There's no .NET server-side dependency. The app is fully functioning after it's downloaded to the client.<br />
+            An ASP.NET Core web server isn't required to host the app<br />
+            Download size is larger, and apps take longer to load.<br />
+            It will not also support existing .NET tooling like debugging the application and JIT compilation.<br />
+
+
+        </p1>
+    </div>
+
+</div>
+<hr />
+<div>
+    <h2 class="text-danger">Web Assembly</h2>
+    <p1>
+
+        Blazor WebAssembly will allow running a web application within the browser <br />
+        instead of executing the logic on the server.
+
+        <br />Blazor WebAssembly is a single-page app framework for building interactive client-side web apps with .NET.<br />
+        Blazor WebAssembly uses open web standards without plugins or code<br />
+        transpilation and works in all modern web browsers, including mobile browsers.<br />
+        WebAssembly is a compact bytecode format optimized for fast download and maximum execution speed.<br/>
+
+
+
+
+
+
+    </p1>
+</div>
+<hr />
+<div>
+    <h3 class="text-danger">SignalRConnection</h3>
+    <p1>
+        On the server, Blazor implements a SignalR hub communicating with the client via web sockets.<br />
+        In the server-side hosting model, Blazor is executed on the server from within an ASP.NET Core app.<br />
+        UI updates, event handling, and JavaScript calls are handled over the SignalR connection.<br />
+        To create a Blazor app using the Blazor Server hosting model, use the ASP.NET Core Blazor Server
+        App template.
+        The ASP.NET Core app hosts the Blazor Server app and creates the SignalR endpoint where clients connect.
+    </p1>
+</div>
+
+@code {
+
+}

@@ -1,0 +1,34 @@
+﻿@page "/Question2"
+<h1 class="text-danger">Question2</h1>
+<h3 class="text-danger">What is the component and component parameter?</h3>
+<hr />
+<div>
+    <h2 class="text-primary">Component</h2>
+    <p>
+        Blazor apps are built using components.<br />
+        A component is a self-contained chunk of user interface (UI), such as a page, dialog, or form.<br />
+        In blazor application we create the component in either in pages folder or in shared folder<br />
+        The extension of the component is .razor<br />
+        The imports.razor component build automatically. In this we import all the classes which is shared by the different component<br />
+        A component includes HTML markup and the processing logic required to inject data or respond to UI events.<br />
+
+        Components are flexible and lightweight.<br />
+        They can be nested, reused, and shared among projects.<br />
+        Components are implemented in Razor component files (.razor) using a combination of C# and HTML markup.<br />
+        A component in Blazor is formally referred to as a Razor component.<br />
+
+        A component's name must start with an uppercase character.
+        For example,MyComponent.razor is valid, and myComponent.razor is invalid.
+        Members of the component class are defined in an code block. In the code block, component state (properties, fields) is specified with methods for event handling or for defining other component logic.
+        <br />More than one code block is permissible.
+    </p>
+</div>
+<div>
+    <h2 class="text-primary">Component Parameter</h2>
+    <p>
+        Components can have component parameters, which are defined using public properties on the component class with the [Parameter] attribute. Use attributes to specify arguments for a component in markup.
+
+    </p>
+</div>
+
+

@@ -1,0 +1,362 @@
+﻿@page "/calculator2"
+<style>
+    .cal{
+        background-color:antiquewhite;
+        height:350px;
+        width:230px;
+        padding:10px
+            
+    }
+    #txt{
+        width:170px;
+        margin-left:10px;
+        margin-right:10px;
+            
+    }
+    #btn-equal{
+        width:170px;
+       
+        margin-left:5px;
+        margin-right:5px;
+    }
+   
+</style>
+<h3>Calculator</h3>
+
+<div class="cal">
+    <div class="row">
+        <input type="text" id="txt" @bind="@finalResult" />
+    </div>
+    <br />
+    <div class="calculator-keys">
+
+
+        
+
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" value="7" class="btn btn-light" @onclick="seven"> 7</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" value="8" class="btn btn-light waves-effect" @onclick="eight"> 8</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" value="9" class="btn btn-light waves-effect" @onclick="nine"> 9</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary" value="+" @onclick="plus"> + </button>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" value="4" class="btn btn-light waves-effect" @onclick="four"> 4</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" value="5" class="btn btn-light waves-effect" @onclick="five"> 5</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" value="6" class="btn btn-light waves-effect" @onclick="six"> 6</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary" value="-" @onclick="minus"> -</button>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" value="1" class="btn btn-light waves-effect" @onclick="one"> 1</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" value="2" class="btn btn-light waves-effect" @onclick="two"> 2</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" value="3" class="btn btn-light waves-effect" @onclick="three"> 3</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary" value="*" @onclick="multiply"> &times;</button>
+            </div>
+
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" value="0" class="btn btn-light waves-effect" @onclick="zero"> 0</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="decimal function btn btn-secondary" value="." @onclick="dot"> .</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear" @onclick="clear">C</button>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary" value="/" @onclick="divide"> &divide;</button>
+            </div>
+        </div>
+
+        <br />
+        <div class="row">
+            <button id="btn-equal" type="button" class="btn btn-primary" value="=" @onclick="equal"> =</button>
+        </div>
+
+    </div>
+</div>
+                @*</div>*@
+
+
+
+
+
+@code {
+
+
+
+    public string finalResult { get; set; } = "";
+
+
+
+  void zero()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "0";
+            else
+                finalResult = finalResult + "0";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+
+    }
+    void one()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "1";
+            else
+                finalResult = finalResult + "1";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void two()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "2";
+            else
+                finalResult = finalResult + "2";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+
+    }
+    void three()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "3";
+            else
+                finalResult = finalResult + "3";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+
+    }
+    void four()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "4";
+            else
+                finalResult = finalResult + "4";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void five()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "5";
+            else
+                finalResult = finalResult + "5";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void six()
+    { try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "6";
+            else
+                finalResult = finalResult + "6";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void seven()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "7";
+            else
+                finalResult = finalResult + "7";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void eight()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "8";
+            else
+                finalResult = finalResult + "8";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void nine()
+    {
+        try
+        {
+
+            if (finalResult == "0" && finalResult != null)
+                finalResult = "9";
+            else
+                finalResult = finalResult + "9";
+        }
+        catch (Exception ex)
+        {
+            finalResult = "Error";
+        }
+    }
+    void plus()
+    {
+        try
+        {
+            finalResult =  finalResult + "+";
+        }
+        catch (Exception ex)
+        {
+
+            finalResult = "Error";
+        }
+
+    }
+    void minus()
+    {
+        try
+        {
+            finalResult =  finalResult + "-";
+        }
+        catch (Exception ex)
+        {
+
+            finalResult = "Error";
+        }
+    }
+    void divide()
+    {
+        try
+        {
+            finalResult =  finalResult + "/";
+        }
+        catch (Exception ex)
+        {
+
+            finalResult = "Error";
+        }
+
+    }
+    void multiply()
+    {
+        try
+        {
+            finalResult =  finalResult + "*";
+        }
+        catch (Exception ex)
+        {
+
+            finalResult = "Error";
+        }
+    }
+
+    void dot()
+    {
+
+        try
+        {
+            finalResult =  finalResult + ".";
+        }
+        catch (Exception ex)
+        {
+
+            finalResult = "Error";
+        }
+    }
+    void clear()
+    {
+        finalResult = "0";
+
+    }
+    void equal()
+    {
+        double results = Evaluate( finalResult);
+        finalResult = Convert.ToString(results);
+    }
+    public double Evaluate(string expr)
+    {
+        try
+        {
+            System.Data.DataTable table = new System.Data.DataTable();
+            return Convert.ToDouble(table.Compute(expr, String.Empty));
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+
+    }
+}
+
+
+
+
+

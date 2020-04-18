@@ -1,0 +1,112 @@
+﻿@page "/Question3"
+
+<h3>Question 3: Explain the Life cycle with example.</h3>
+
+
+<ol>
+    <li>
+        OnIntialized
+    </li>
+    <li>
+        OnIntializedAsync
+    </li>
+    <li>
+        OnParameterSet
+    </li>
+    <li>
+        OnParamterSetAsync
+    </li>
+    <li>
+        OnAfterRender
+    </li>
+    <li>
+        OnAfterRenderAsync
+    </li>
+    <li>
+        ShouldRender
+    </li>
+</ol>
+
+
+
+<ul>
+    <li>
+        <p>
+            => OnInitialized is first called then OnIntializedAsync.
+            OnInitializedAsync and OnInitialized are invoked when the component
+            is initialized after having received its initial parameters from its parent component.
+
+        </p>
+    </li>
+    <li>
+        <p>
+            =>
+            The OnParametersSet and OnParametersSetAsync methods are called when a component is first initialised.
+            OnParameterSet and OnParameterSetAsync is called each time a new and updated parameters are recieved from the parents.
+        </p>
+    </li>
+    <li>
+        <p>=> OnAfterRender and OnAfterRenderAsync are called after each render of the component.</p>
+    </li>
+    <li>
+        <p>=> ShouldRender method return a boolean type value it returns true for refresh otherwise false.</p>
+    </li>
+</ul>
+
+<hr />
+<h3 class="alert-dark">Examples</h3>
+
+
+@foreach (var item in EventType)
+{
+    @item
+    <hr />
+}
+
+
+
+
+@code {
+    List<string> EventType = new List<string>();
+
+    protected override void OnInitialized()
+    {
+        EventType.Add("OnInitialized is called");
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        EventType.Add("OnInitializedAsync is called");
+        await Task.Delay(100);
+    }
+
+   
+
+    protected override void OnParametersSet()
+    {
+        EventType.Add("OnParameterSet is called");
+    }
+    protected override async Task OnParametersSetAsync()
+    {
+        EventType.Add("OnParametersSetAsync is called");
+        await Task.Delay(1000);
+    }
+
+   
+    //protected override void OnAfterRender()
+    //{
+    //    EventType2.Add("OnAfterRender is called");
+    //}
+
+    //protected override async Task OnAfterRenderAsync()
+    //{
+    //    EventType2.Add("OnAfterRenderAsync is called");
+    //    await Task.Delay(1000);
+    //}
+
+    
+    protected override bool ShouldRender()
+    {
+        EventType.Add("ShouldRender is called");
+        return true;
+    }
+}
