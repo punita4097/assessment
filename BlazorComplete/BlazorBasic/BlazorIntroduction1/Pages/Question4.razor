@@ -1,0 +1,59 @@
+﻿@page "/databinding"
+<h3>One-way Data Binding</h3>
+<p>
+    In one-way binding, we need to pass property or variable name along with special symbol.<br />
+    In One-way data-binding no special attribute is required like in other binding.<br />
+</p>
+<label>Enter Name</label>
+<label class="col-sm-3">@Name</label>
+
+<hr />
+<h3>Two-way Data Binding</h3>
+<p>
+    Blazor supports two-way binding. This can be achieved by using "bind" attribute.<br />
+    The current version of Blazor supports the following types for two-way binding.<br />
+    <ul>
+        <li>string</li>
+        <li>int</li>
+        <li>DateTime</li>
+        <li>Enum</li>
+        <li>bool</li>
+    </ul>
+
+</p>
+<br />
+<br />
+<input type="text" placeholder="Name" @bind="@FirstName" />
+<input type="text" placeholder="Surname" @bind="@LastName" />
+
+<br />
+<br />
+
+<h3>Three-way Data Binding</h3>
+<p>
+    The current version of Blazor, event binding is very limited.
+    <br />Currently, it only supports onclick and on change event.
+</p>
+<input type="text" placeholder="Name" @bind="@FirstName" />
+<input type="text" placeholder="Surname" @bind="@LastName" />
+
+
+<input type="button" value="Submit" @onclick="Concatenate" />
+<br />
+<input readonly @bind="@finalresult" />
+
+
+
+@functions
+ {
+    string Name = "Punita";
+    string FirstName;
+    string LastName;
+    string finalresult;
+    void Concatenate()
+    {
+        finalresult = FirstName + LastName;
+    }
+
+
+}  

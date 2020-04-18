@@ -1,0 +1,69 @@
+﻿
+@page "/Student"
+@layout MainLayout
+@using BlazorAssignment1.Data.Services
+@using BlazorAssignment1.Data.Models
+@inject StudentServices studentservice
+
+<NavLink class="nav-link" href="AddStudent">
+    <span class="oi oi-plus" aria-hidden="true"></span>
+    AddStudent
+
+</NavLink>
+<h1>Student Information</h1>
+
+@if (objStudent == null)
+{
+    <p><em>Loading.....</em></p>
+}
+
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stud in objStudent)
+            {
+                <tr>
+                    <td>@stud.StudentId</td>
+                    <td>@stud.FirstName</td>
+                    <td>@stud.LastName</td>
+                    <td>@stud.Address</td>
+                    <td>@stud.city</td>
+                    <td>@stud.Age</td>
+                    <td>
+                        <a class="nav-link" href="EditStudent/@stud.StudentId">
+                            <span class="oi oi-pencil" aria-hidden="true"></span>Edit
+                        </a>
+
+                        <a class="nav-link" href="DeleteStudent/@stud.StudentId">
+                            <span class="oi oi-trash" aria-hidden="true"></span>Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+
+    List<StudentInfo> objStudent;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        objStudent = await Task.Run(() => studentservice.GetStudent());
+    }
+
+
+}
