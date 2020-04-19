@@ -1,0 +1,52 @@
+﻿@model MvcAdvance.Register
+
+@{
+    ViewBag.Title = "GetById";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetById</title>
+</head>
+<body>
+    <div>
+        <h4>Employee</h4>
+        <hr />
+        <div>
+            <div class="alert alert-info"><b>Data Collected @@ @DateTime.Now.ToString()</b></div>
+        </div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Mobile)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+       
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
+

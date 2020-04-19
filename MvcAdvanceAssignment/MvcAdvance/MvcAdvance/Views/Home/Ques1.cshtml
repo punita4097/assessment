@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Ques1";
+}
+
+    <h2>Ques1:Explain different types of filters and explain the ordering of filters </h2>
+<hr />
+<h4> Filter is a custom class where you can write custom logic to execute before or after an action method executes</h4>
+<h3> Types of filter in MVC</h3>
+<ul>
+    <li>
+        Action Filter: Performs some operation before and after an action method executes.
+        <h5>Built-in filter:[Authorize], [RequireHttps]</h5>
+        <h5>Interfaces: IAuthorizationFilter</h5>
+    </li>
+    <li>
+        Authorization filter:Performs authentication and authorizes before executing action method.
+        <h5>
+            Interfaces:IActionFilter
+        </h5>
+
+
+    </li>
+    <li>
+        Exception filters:Performs some operation if there is an unhandled exception thrown during the 
+        execution of the ASP.NET MVC pipeline.
+        <h5>Built-in Filter: [OutputCache]</h5>
+        <h5>Interfaces: IResultFilter</h5>
+    </li>
+    <li>
+        Result filters:Performs some operation before or after the execution of view result.
+        <h5>Built-in Filter: [HandleError]</h5>
+        <h5>Interfaces: IExceptionFilter</h5>
+    </li>
+</ul>
+<br />
+<h4> Ordering of filters</h4>
+<h5>Multiple filters can be applied to a single controller class or action method. So, filters run in the following order.</h5>
+<ul>
+    <li>
+        Authorization filters
+
+    </li>
+    <li>
+        Action filters
+
+    </li>
+    <li>
+        Response filters
+    </li>
+    <li>
+        Exception filters
+
+    </li>
+</ul>

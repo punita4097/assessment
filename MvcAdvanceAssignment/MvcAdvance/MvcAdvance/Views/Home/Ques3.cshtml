@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Ques3";
+}
+
+    <h3> Difference between validation summary and ValidationMessageFor and also explain antiforgery token </h3>
+<hr />
+<h5>
+    <b>ValidationMessageFor</b>
+    <br />
+    The Html.ValidationMessageFor() is a strongly typed extension method. It displays a validation message 
+    if an error exists for the specified field in the ModelStateDictionary object.
+</h5>
+<h5>
+    <b> Validation Summary</b>
+    <br />
+    The ValidationSummary can be used to display all the error messages for all the fields.
+    It can also be used to display custom error messages.
+
+ 
+</h5>
+<hr />
+<h4>AntiForgeryToken</h4>
+<h5>A great feature in ASP.NET MVC is the AntiForgeryToken. 
+    This Generates a hidden form field (anti-forgery token) that is validated when the form is submitted.
+    The anti-forgery token can be used to help protect your application against cross-site request forgery.</h5>
+<h5>
+    How will  ValidateAntiForgeryToken work internally and how it is does it validate your request?
+</h5>
+<h5>
+    <ul>
+        <li>
+            With the help of IHtmlString, a unique value created and stored  in your browser cookies.
+        </li>
+        <li>
+            Every request must carry this value (AntiForgeryToken) under Request. Form[0]
+        </li>
+        <li>
+            Internally, the Authorization filter helps to validate this token value.
+        </li>
+        
+    </ul>
+</h5>
+
