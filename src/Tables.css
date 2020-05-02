@@ -1,0 +1,18 @@
+#Table,tr,td,th{
+    background-color: azure;
+    border: 1px solid black;
+    width:50%;
+    margin:2px;
+    
+}
+
+.btn_delete{
+
+    background-color:yellowgreen;
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px;
+  font-size: 16px;
+  
+}
