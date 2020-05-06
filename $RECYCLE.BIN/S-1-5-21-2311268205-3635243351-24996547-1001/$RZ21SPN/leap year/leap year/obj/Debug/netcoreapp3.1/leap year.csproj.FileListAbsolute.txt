@@ -1,0 +1,10 @@
+D:\c# intro\leap year\leap year\bin\Debug\netcoreapp3.1\leap year.exe
+D:\c# intro\leap year\leap year\bin\Debug\netcoreapp3.1\leap year.deps.json
+D:\c# intro\leap year\leap year\bin\Debug\netcoreapp3.1\leap year.runtimeconfig.json
+D:\c# intro\leap year\leap year\bin\Debug\netcoreapp3.1\leap year.runtimeconfig.dev.json
+D:\c# intro\leap year\leap year\bin\Debug\netcoreapp3.1\leap year.dll
+D:\c# intro\leap year\leap year\bin\Debug\netcoreapp3.1\leap year.pdb
+D:\c# intro\leap year\leap year\obj\Debug\netcoreapp3.1\leap year.AssemblyInfoInputs.cache
+D:\c# intro\leap year\leap year\obj\Debug\netcoreapp3.1\leap year.AssemblyInfo.cs
+D:\c# intro\leap year\leap year\obj\Debug\netcoreapp3.1\leap year.dll
+D:\c# intro\leap year\leap year\obj\Debug\netcoreapp3.1\leap year.pdb

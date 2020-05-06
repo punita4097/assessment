@@ -1,0 +1,11 @@
+D:\Delegateexample\Delegateexample\bin\Debug\netcoreapp3.1\Delegateexample.exe
+D:\Delegateexample\Delegateexample\bin\Debug\netcoreapp3.1\Delegateexample.deps.json
+D:\Delegateexample\Delegateexample\bin\Debug\netcoreapp3.1\Delegateexample.runtimeconfig.json
+D:\Delegateexample\Delegateexample\bin\Debug\netcoreapp3.1\Delegateexample.runtimeconfig.dev.json
+D:\Delegateexample\Delegateexample\bin\Debug\netcoreapp3.1\Delegateexample.dll
+D:\Delegateexample\Delegateexample\bin\Debug\netcoreapp3.1\Delegateexample.pdb
+D:\Delegateexample\Delegateexample\obj\Debug\netcoreapp3.1\Delegateexample.csprojAssemblyReference.cache
+D:\Delegateexample\Delegateexample\obj\Debug\netcoreapp3.1\Delegateexample.AssemblyInfoInputs.cache
+D:\Delegateexample\Delegateexample\obj\Debug\netcoreapp3.1\Delegateexample.AssemblyInfo.cs
+D:\Delegateexample\Delegateexample\obj\Debug\netcoreapp3.1\Delegateexample.dll
+D:\Delegateexample\Delegateexample\obj\Debug\netcoreapp3.1\Delegateexample.pdb

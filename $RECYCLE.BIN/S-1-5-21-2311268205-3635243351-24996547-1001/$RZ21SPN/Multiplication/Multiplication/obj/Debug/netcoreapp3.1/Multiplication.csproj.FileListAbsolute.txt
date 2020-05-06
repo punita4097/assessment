@@ -1,0 +1,11 @@
+D:\c# intro\Multiplication\Multiplication\bin\Debug\netcoreapp3.1\Multiplication.exe
+D:\c# intro\Multiplication\Multiplication\bin\Debug\netcoreapp3.1\Multiplication.deps.json
+D:\c# intro\Multiplication\Multiplication\bin\Debug\netcoreapp3.1\Multiplication.runtimeconfig.json
+D:\c# intro\Multiplication\Multiplication\bin\Debug\netcoreapp3.1\Multiplication.runtimeconfig.dev.json
+D:\c# intro\Multiplication\Multiplication\bin\Debug\netcoreapp3.1\Multiplication.dll
+D:\c# intro\Multiplication\Multiplication\bin\Debug\netcoreapp3.1\Multiplication.pdb
+D:\c# intro\Multiplication\Multiplication\obj\Debug\netcoreapp3.1\Multiplication.AssemblyInfoInputs.cache
+D:\c# intro\Multiplication\Multiplication\obj\Debug\netcoreapp3.1\Multiplication.AssemblyInfo.cs
+D:\c# intro\Multiplication\Multiplication\obj\Debug\netcoreapp3.1\Multiplication.dll
+D:\c# intro\Multiplication\Multiplication\obj\Debug\netcoreapp3.1\Multiplication.pdb
+D:\c# intro\Multiplication\Multiplication\obj\Debug\netcoreapp3.1\Multiplication.csprojAssemblyReference.cache

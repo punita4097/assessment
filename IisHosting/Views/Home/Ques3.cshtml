@@ -1,0 +1,45 @@
+﻿
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ques3</title>
+</head>
+<body>
+    <div>
+        <h2>Ques 3: Explain Render Section and CShtml function with examples.Why do we use the “Bind'' attribute in the action parameter? </h2>
+
+        <h3 style="text-decoration-style:solid">Bind Atttribute</h3>
+        <p>Bind Attribute specifies the property that we want to include in the model binding.</p>
+        <p>
+            Like in our Employee Registration Form I have  excluded "Lastname and age" Parameter. Hence It will be
+            excluded from the model binding.
+        </p>
+
+        <h3 style="text-decoration-style:solid">Render Section</h3>
+        <p>
+            RenderSection is used for injecting content in the defined section. It allows you to specify a region in Layout.
+
+        </p>
+
+        <h3 style="text-decoration-style:solid"> Cshtml Functions</h3>
+        <p>
+            When we define the logic code in c#  in the view in the functions block
+            The functions block is known as Cshtml Functions.
+
+        </p>
+        @functions
+        {
+            public string Message()
+            {
+                return "Hello this a razor function";
+            }
+        }
+        <p><b>Message is:</b>@Message()</p>
+    </div>
+</body>
+</html>
+

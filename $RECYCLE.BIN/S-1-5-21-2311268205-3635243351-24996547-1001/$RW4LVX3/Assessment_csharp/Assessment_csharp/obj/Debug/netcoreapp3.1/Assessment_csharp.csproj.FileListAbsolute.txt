@@ -1,0 +1,22 @@
+D:\csharp\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.exe
+D:\csharp\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.deps.json
+D:\csharp\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.runtimeconfig.json
+D:\csharp\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.runtimeconfig.dev.json
+D:\csharp\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.dll
+D:\csharp\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.pdb
+D:\csharp\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.csprojAssemblyReference.cache
+D:\csharp\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.AssemblyInfoInputs.cache
+D:\csharp\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.AssemblyInfo.cs
+D:\csharp\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.dll
+D:\csharp\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.pdb
+D:\New folder\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.exe
+D:\New folder\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.deps.json
+D:\New folder\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.runtimeconfig.json
+D:\New folder\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.runtimeconfig.dev.json
+D:\New folder\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.dll
+D:\New folder\Assessment_csharp\Assessment_csharp\bin\Debug\netcoreapp3.1\Assessment_csharp.pdb
+D:\New folder\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.csprojAssemblyReference.cache
+D:\New folder\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.AssemblyInfoInputs.cache
+D:\New folder\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.AssemblyInfo.cs
+D:\New folder\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.dll
+D:\New folder\Assessment_csharp\Assessment_csharp\obj\Debug\netcoreapp3.1\Assessment_csharp.pdb

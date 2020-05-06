@@ -1,0 +1,26 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ques2</title>
+</head>
+<body>
+    <div>
+        <h2>
+            Explain NoAction, ChildActionOnly
+        </h2>
+        <h4>
+            NonAction: In a controller, Let suppose there is two method ..Method1() and method2().Let's say Method2() is for doing some internal work, and we don't want it to be invoked using a URL request. To achieve this, decorate Method2() with NonAction attribute.
+        </h4>
+        <h4>
+            ChildActionOnly : When we want to access any method by the child request then we decorate the method with ChildActionOnly Attribute.  A runtime exception will be thrown if a URL request is made to this method
+            To invoke ChildAction, we are using Action() or RenderAction() HTML Helper.
+
+        </h4>
+
+    </div>
+</body>
+</html>
+

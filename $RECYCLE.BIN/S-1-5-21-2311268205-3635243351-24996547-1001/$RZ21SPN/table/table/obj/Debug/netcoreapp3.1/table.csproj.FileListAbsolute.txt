@@ -1,0 +1,11 @@
+D:\c# intro\table\table\bin\Debug\netcoreapp3.1\table.exe
+D:\c# intro\table\table\bin\Debug\netcoreapp3.1\table.deps.json
+D:\c# intro\table\table\bin\Debug\netcoreapp3.1\table.runtimeconfig.json
+D:\c# intro\table\table\bin\Debug\netcoreapp3.1\table.runtimeconfig.dev.json
+D:\c# intro\table\table\bin\Debug\netcoreapp3.1\table.dll
+D:\c# intro\table\table\bin\Debug\netcoreapp3.1\table.pdb
+D:\c# intro\table\table\obj\Debug\netcoreapp3.1\table.csprojAssemblyReference.cache
+D:\c# intro\table\table\obj\Debug\netcoreapp3.1\table.AssemblyInfoInputs.cache
+D:\c# intro\table\table\obj\Debug\netcoreapp3.1\table.AssemblyInfo.cs
+D:\c# intro\table\table\obj\Debug\netcoreapp3.1\table.dll
+D:\c# intro\table\table\obj\Debug\netcoreapp3.1\table.pdb

@@ -1,0 +1,11 @@
+D:\c# intro\table\Static and instance\obj\Debug\netcoreapp3.1\Static and instance.csprojAssemblyReference.cache
+D:\c# intro\table\Static and instance\obj\Debug\netcoreapp3.1\Static and instance.AssemblyInfoInputs.cache
+D:\c# intro\table\Static and instance\obj\Debug\netcoreapp3.1\Static and instance.AssemblyInfo.cs
+D:\c# intro\table\Static and instance\bin\Debug\netcoreapp3.1\Static and instance.exe
+D:\c# intro\table\Static and instance\bin\Debug\netcoreapp3.1\Static and instance.deps.json
+D:\c# intro\table\Static and instance\bin\Debug\netcoreapp3.1\Static and instance.runtimeconfig.json
+D:\c# intro\table\Static and instance\bin\Debug\netcoreapp3.1\Static and instance.runtimeconfig.dev.json
+D:\c# intro\table\Static and instance\bin\Debug\netcoreapp3.1\Static and instance.dll
+D:\c# intro\table\Static and instance\bin\Debug\netcoreapp3.1\Static and instance.pdb
+D:\c# intro\table\Static and instance\obj\Debug\netcoreapp3.1\Static and instance.dll
+D:\c# intro\table\Static and instance\obj\Debug\netcoreapp3.1\Static and instance.pdb

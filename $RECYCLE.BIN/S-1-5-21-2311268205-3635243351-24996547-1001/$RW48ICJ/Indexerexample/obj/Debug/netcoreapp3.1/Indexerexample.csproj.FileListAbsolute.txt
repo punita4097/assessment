@@ -1,0 +1,10 @@
+D:\Indexerexample\Indexerexample\bin\Debug\netcoreapp3.1\Indexerexample.exe
+D:\Indexerexample\Indexerexample\bin\Debug\netcoreapp3.1\Indexerexample.deps.json
+D:\Indexerexample\Indexerexample\bin\Debug\netcoreapp3.1\Indexerexample.runtimeconfig.json
+D:\Indexerexample\Indexerexample\bin\Debug\netcoreapp3.1\Indexerexample.runtimeconfig.dev.json
+D:\Indexerexample\Indexerexample\bin\Debug\netcoreapp3.1\Indexerexample.dll
+D:\Indexerexample\Indexerexample\bin\Debug\netcoreapp3.1\Indexerexample.pdb
+D:\Indexerexample\Indexerexample\obj\Debug\netcoreapp3.1\Indexerexample.AssemblyInfoInputs.cache
+D:\Indexerexample\Indexerexample\obj\Debug\netcoreapp3.1\Indexerexample.AssemblyInfo.cs
+D:\Indexerexample\Indexerexample\obj\Debug\netcoreapp3.1\Indexerexample.dll
+D:\Indexerexample\Indexerexample\obj\Debug\netcoreapp3.1\Indexerexample.pdb

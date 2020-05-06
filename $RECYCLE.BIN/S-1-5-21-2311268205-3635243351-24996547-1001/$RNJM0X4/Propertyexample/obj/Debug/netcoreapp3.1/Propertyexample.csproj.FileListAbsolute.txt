@@ -1,0 +1,11 @@
+D:\Propertyexample\Propertyexample\bin\Debug\netcoreapp3.1\Propertyexample.exe
+D:\Propertyexample\Propertyexample\bin\Debug\netcoreapp3.1\Propertyexample.deps.json
+D:\Propertyexample\Propertyexample\bin\Debug\netcoreapp3.1\Propertyexample.runtimeconfig.json
+D:\Propertyexample\Propertyexample\bin\Debug\netcoreapp3.1\Propertyexample.runtimeconfig.dev.json
+D:\Propertyexample\Propertyexample\bin\Debug\netcoreapp3.1\Propertyexample.dll
+D:\Propertyexample\Propertyexample\bin\Debug\netcoreapp3.1\Propertyexample.pdb
+D:\Propertyexample\Propertyexample\obj\Debug\netcoreapp3.1\Propertyexample.csprojAssemblyReference.cache
+D:\Propertyexample\Propertyexample\obj\Debug\netcoreapp3.1\Propertyexample.AssemblyInfoInputs.cache
+D:\Propertyexample\Propertyexample\obj\Debug\netcoreapp3.1\Propertyexample.AssemblyInfo.cs
+D:\Propertyexample\Propertyexample\obj\Debug\netcoreapp3.1\Propertyexample.dll
+D:\Propertyexample\Propertyexample\obj\Debug\netcoreapp3.1\Propertyexample.pdb
